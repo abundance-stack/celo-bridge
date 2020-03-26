@@ -1,0 +1,29 @@
+{
+  "name": "server-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amir <amiromayer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx babel-node index",
+    "dev": "nodemon --exec npx babel-node index"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "nodemon": "^2.0.2"
+  }
+}
