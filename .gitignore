@@ -12,3 +12,4 @@ build/
 # Configs
 .env
 config.json
+wallets.js
