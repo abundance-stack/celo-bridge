@@ -19,7 +19,7 @@
     "@celo/walletkit": "^0.0.15",
     "@hapi/boom": "^9.1.0",
     "@truffle/hdwallet-provider": "^1.0.33",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-preset-react-native": "^4.0.1",
     "bip32": "^2.0.5",
     "bip39": "^3.0.2",
